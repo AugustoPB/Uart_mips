@@ -1,0 +1,52 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_isim_beh.exe -prj C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_beh.prj work.TbTop 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/RegN_Bits.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/PacoteMR2.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/ULA.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/BancoRegistradores.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/BUFFER.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/BlocoDeDados.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/BlocoDeControle.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/aux_functions.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/UART.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/mr2.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbMaquina2.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbMaquina1.vhd" into library work
+Parsing VHDL file "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package aux_functions
+Compiling package textio
+Compiling package p_mr2
+Compiling package std_logic_signed
+Compiling architecture ram_mem of entity RAM_mem [\RAM_mem(('0','0','0','1','0','0...]
+Compiling architecture ram_mem of entity RAM_mem [\RAM_mem(('0','0','0','0','0','0...]
+Compiling architecture regn of entity regnbit [\regnbit(32,('0','0','0','0','0'...]
+Compiling architecture regn of entity regnbit [\regnbit(32,('0','0','0','1','0'...]
+Compiling architecture reg_bank of entity reg_bank [reg_bank_default]
+Compiling architecture alu of entity alu [alu_default]
+Compiling architecture regn of entity regnbit [\regnbit(32,('0','0','0','0','0'...]
+Compiling architecture datapath of entity datapath [datapath_default]
+Compiling architecture control_unit of entity control_unit [control_unit_default]
+Compiling architecture mr2 of entity MR2 [mr2_default]
+Compiling package estadosserial
+Compiling architecture buff of entity BUFF [buff_default]
+Compiling architecture serial of entity SERIAL [serial_default]
+Compiling architecture uart of entity UART [uart_default]
+Compiling architecture cpu_tb1 of entity CPU_tb1 [cpu_tb1_default]
+Compiling architecture cpu_tb2 of entity CPU_tb2 [cpu_tb2_default]
+Compiling architecture behavior of entity tbtop
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 40 VHDL Units
+Built simulation executable C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_isim_beh.exe
+Fuse Memory Usage: 35176 KB
+Fuse CPU Usage: 1108 ms
