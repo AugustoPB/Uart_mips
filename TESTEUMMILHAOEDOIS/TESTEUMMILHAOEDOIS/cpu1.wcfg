@@ -3,7 +3,7 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_isim_beh.wdb" id="1" type="auto">
+      <db_ref path="C:/Users/Augusto/Desktop/Uart_mips-master/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_isim_beh.wdb" id="1" type="auto">
          <top_modules>
             <top_module name="aux_functions" />
             <top_module name="estadosserial" />

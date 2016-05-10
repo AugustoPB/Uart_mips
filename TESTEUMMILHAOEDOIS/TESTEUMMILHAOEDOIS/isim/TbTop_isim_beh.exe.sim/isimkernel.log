@@ -2,14 +2,14 @@ Command line:
    TbTop_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  63731
+     -socket  54129
 
-Sat May 07 16:52:37 2016
+Mon May 09 19:56:24 2016
 
 
- Elaboration Time: 0.21875 sec
+ Elaboration Time: 0.1875 sec
 
- Current Memory Usage: 907.821 Meg
+ Current Memory Usage: 908.362 Meg
 
  Total Signals          : 836
  Total Nets             : 70634
@@ -22,10 +22,12 @@ Sat May 07 16:52:37 2016
 Total Line Count : 1102
 Total Line Count : 1102
 Total Line Count : 1102
+Total Line Count : 1102
+Total Line Count : 1102
 
- Total Simulation Time: 2.29688 sec
+ Total Simulation Time: 86.0938 sec
 
- Current Memory Usage: 750.535 Meg
+ Current Memory Usage: 436.503 Meg
 
-Sat May 07 16:59:53 2016
+Mon May 09 20:59:50 2016
 

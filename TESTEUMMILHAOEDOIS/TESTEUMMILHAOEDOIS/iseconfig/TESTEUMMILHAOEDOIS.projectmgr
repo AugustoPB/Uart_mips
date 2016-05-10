@@ -12,13 +12,13 @@
          <ClosedNode>PROJECT</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>TbTop - behavior (C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop.vhd)</SelectedItem>
+         <SelectedItem>TbTop - behavior (C:/Users/Augusto/Desktop/Uart_mips-master/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001af000000020000000000000000000000000200000064ffffffff000000810000000300000002000001af0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>TbTop - behavior (C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop.vhd)</CurrentItem>
+      <CurrentItem>TbTop - behavior (C:/Users/Augusto/Desktop/Uart_mips-master/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -81,18 +81,20 @@
          <ClosedNode>/TbTop - behavior C:|Users|Augusto|Desktop|TESTEUMMILHAOEDOIS|TESTEUMMILHAOEDOIS|TbTop.vhd/maquina1 - CPU_tb1 - CPU_tb1</ClosedNode>
          <ClosedNode>/TbTop - behavior C:|Users|Augusto|Desktop|TESTEUMMILHAOEDOIS|TESTEUMMILHAOEDOIS|TbTop.vhd/maquina1 - CPU_tb1 - CPU_tb1/CPU - MR2 - MR2</ClosedNode>
          <ClosedNode>/TbTop - behavior C:|Users|Augusto|Desktop|TESTEUMMILHAOEDOIS|TESTEUMMILHAOEDOIS|TbTop.vhd/maquina2 - CPU_tb2 - CPU_tb2</ClosedNode>
+         <ClosedNode>/TbTop - behavior C:|Users|Augusto|Desktop|Uart_mips-master|TESTEUMMILHAOEDOIS|TESTEUMMILHAOEDOIS|TbTop.vhd/maquina2 - CPU_tb2 - CPU_tb2/CPU - MR2 - MR2</ClosedNode>
+         <ClosedNode>/TbTop - behavior C:|Users|Gabriel|Desktop|Uart_mips-master|TESTEUMMILHAOEDOIS|TESTEUMMILHAOEDOIS|TbTop.vhd/maquina2 - CPU_tb2 - CPU_tb2</ClosedNode>
          <ClosedNode>/TbTop - behavior C:|Users|Gabriel|TESTEUMMILHAOEDOIS|TbTop.vhd/maquina1 - CPU_tb1 - CPU_tb1/CPU - MR2 - MR2/dp - datapath - datapath</ClosedNode>
          <ClosedNode>/TbTop - behavior C:|Users|Gabriel|TESTEUMMILHAOEDOIS|TbTop.vhd/maquina1 - CPU_tb1 - CPU_tb1/uart - UART - UART</ClosedNode>
          <ClosedNode>/TbTop - behavior C:|Users|Gabriel|TESTEUMMILHAOEDOIS|TbTop.vhd/maquina2 - CPU_tb2 - CPU_tb2</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>TbTop - behavior (C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop.vhd)</SelectedItem>
+         <SelectedItem>buffCIN - BUFF - BUFF (C:/Users/Augusto/Desktop/Uart_mips-master/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/BUFFER.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >30</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000162000000020000000000000000000000000200000064ffffffff000000810000000300000002000001620000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001af000000020000000000000000000000000200000064ffffffff000000810000000300000002000001af0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>TbTop - behavior (C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop.vhd)</CurrentItem>
+      <CurrentItem>buffCIN - BUFF - BUFF (C:/Users/Augusto/Desktop/Uart_mips-master/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/BUFFER.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>

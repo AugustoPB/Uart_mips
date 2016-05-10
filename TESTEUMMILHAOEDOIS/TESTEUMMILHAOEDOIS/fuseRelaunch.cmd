@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_isim_beh.exe" -prj "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_beh.prj" "work.TbTop" 
+-intstyle "ise" -incremental -o "C:/Users/Gabriel/Desktop/Uart_mips-master/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_isim_beh.exe" -prj "C:/Users/Gabriel/Desktop/Uart_mips-master/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_beh.prj" "work.TbTop" 

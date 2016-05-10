@@ -81,5 +81,5 @@ SaltoMyMain:
 
 .data 
 EnderecoUART: 0xFFE00000
-BufferSaida:  .asciiz  "Hello Augusto"
+BufferSaida:  .asciiz  "Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Fim Mnsg"
 

@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/ULA.vhd";
+static const char *ng0 = "C:/Users/Gabriel/Desktop/Uart_mips-master/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/ULA.vhd";
 extern char *IEEE_P_0774719531;
 extern char *IEEE_P_2592010699;
 
@@ -820,7 +820,7 @@ LAB36:    t153 = (t0 + 1192U);
     t159 = (t158 * 1U);
     t160 = (0 + t159);
     t153 = (t157 + t160);
-    t161 = (t0 + 6255);
+    t161 = (t0 + 6443);
     t165 = ((IEEE_P_2592010699) + 4024);
     t167 = (t166 + 0U);
     t168 = (t167 + 0U);

@@ -67,7 +67,7 @@ begin
 	end process;
 	
 	process(ck,rst,intr,uins.i)
-	variable estado: integer range 0 to 10;
+	variable estado: integer range 0 to 6;
 	begin
 	if rst = '1' then
 		intrInterno <= '0';
@@ -81,42 +81,15 @@ begin
 	elsif ck'event and ck = '1' and intLogic = '1' then
 		estado := estado +1;
 		intrInterno<= '1';
-	elsif estado = 10 then 
+	elsif estado = 6 then 
 		intrInterno <= '0';
 		estado := 0;
 		kkk <= '0';
-	elsif estado = 5 then
+	elsif estado = 3 then 
 		intrEnd<='0';
 	end if;
 	end process;
---	process (ck,rst)
-	--variable estado: integer range 0 to 3;
---	begin
-	--	if rst = '1' then 
---			intrInterno<= '0';
-			--estado := 0;
-		--elsif ck'event  then
-	--		case estado is
---				when 0 =>  if intr='1' then
-					--				intrInterno<= '1';
-				--					estado := 1;
-			--					end if;
-		--		when 1 => if uins.wpc = '1' then 
-						--		intrInterno<= '1';
-					--			estado := 2;
-				--			end if;
-			--	when 2 => if ck= '0' then 
-				--				intrInterno<= '0';
-			--					estado := 3;
-		--					end if;
-	--		  when 3 => if intr = '0' then 
-						--		intrInterno<= '0';
-					--			estado := 0;
-				--			end if;
-			--end case;
-		--end if;
-	--end process;
-	--pcInstr <= pc + 4 when intrInterno = '1' else pcInstr;
+	
 	incpc <= pc + 4;
 	RNPC: entity work.regnbit generic map(N => 32) port map(ck => ck, rst => rst, ce => uins.CY1, D => incpc, Q => npc);
 	RIR: entity work.regnbit generic map(N => 32) port map(ck => ck, rst => rst, ce => uins.CY1, D => instruction, Q => IR);
