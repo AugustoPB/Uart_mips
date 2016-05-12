@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Gabriel/Desktop/Uart_mips-master/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="aux_functions" />
+            <top_module name="estadosserial" />
+            <top_module name="p_mr2" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tbtop" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/tbtop/maquina1/CPU/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/ce[16]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[16]</obj_property>
+      <obj_property name="ObjectShortName">ce[16]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/ce[2]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">ce[2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/ce[1]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">ce[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/ce[0]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">ce[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/rw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/d_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d_address[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/uins.wpc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">.wpc</obj_property>
+      <obj_property name="ObjectShortName">uins.wpc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/intr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/inta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inta</obj_property>
+      <obj_property name="ObjectShortName">inta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/uins.i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">.i</obj_property>
+      <obj_property name="ObjectShortName">uins.i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/desviouart" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">desviouart</obj_property>
+      <obj_property name="ObjectShortName">desviouart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/intrinterno" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intrinterno</obj_property>
+      <obj_property name="ObjectShortName">intrinterno</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/conta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">conta</obj_property>
+      <obj_property name="ObjectShortName">conta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/jump" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/pcintr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcintr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcintr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/dtpcintr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dtpcintr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dtpcintr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/dtpc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dtpc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dtpc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/incpc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">incpc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">incpc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/npc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">npc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/CPU/dp/result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

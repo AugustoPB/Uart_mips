@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Augusto/Desktop/TESTEUMMILHAOEDOIS/TESTEUMMILHAOEDOIS/TbTop_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="aux_functions" />
+            <top_module name="estadosserial" />
+            <top_module name="p_mr2" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tbtop" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/tbtop/maquina1/uart/ck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/rw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/u_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">u_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">u_address[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/ea" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ea</obj_property>
+      <obj_property name="ObjectShortName">ea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/pe" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">pe</obj_property>
+      <obj_property name="ObjectShortName">pe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/intr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/inta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inta</obj_property>
+      <obj_property name="ObjectShortName">inta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/gatcout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gatcout</obj_property>
+      <obj_property name="ObjectShortName">gatcout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/cecin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cecin</obj_property>
+      <obj_property name="ObjectShortName">cecin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/cecout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cecout</obj_property>
+      <obj_property name="ObjectShortName">cecout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/hasdatacout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hasdatacout</obj_property>
+      <obj_property name="ObjectShortName">hasdatacout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/hasdatacin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hasdatacin</obj_property>
+      <obj_property name="ObjectShortName">hasdatacin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/nxtdatacout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nxtdatacout</obj_property>
+      <obj_property name="ObjectShortName">nxtdatacout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/buffCOUT/bufferreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bufferreg[71:0]</obj_property>
+      <obj_property name="ObjectShortName">bufferreg[71:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/buffCOUT/datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbtop/maquina1/uart/buffCOUT/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
